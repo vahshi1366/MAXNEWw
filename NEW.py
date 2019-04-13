@@ -17,7 +17,7 @@ import time, random, sys, json, null, codecs, html5lib ,shutil ,threading, glob,
 loop = asyncio.get_event_loop()
 #======================================================================================
 #======================================================================================
-client = LINE()
+client = LINE("EDzI9aHMtYYIWpnRXZS5.mvgZmG0tjdWdZJgQ3WMtPq.eg3aCyklYm+6NVFR89LmTx40slBNoUtqRLvM8v2BcMk=")
 client.log("Auth Token : " + str(client.authToken))
 client.log("Timeline Token : " + str(client.tl.channelAccessToken))
 #====================================================================================
